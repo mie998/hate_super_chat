@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/nishiwaki/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/nishiwaki/catkin_ws/src/area_server/include/**",
+        "/home/nishiwaki/catkin_ws/src/move_pillar/include/**",
+        "/home/nishiwaki/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/nishiwaki/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/nishiwaki/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/nishiwaki/catkin_ws/src/voice_text/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

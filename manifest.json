@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "hate super chat!!",
+    "version": "0.0.0.0",
+    "description": "remove super chat from youtube live",
+    "icons": {
+        "16": "assets/inhibit.png"
+    }
+}
