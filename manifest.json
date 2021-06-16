@@ -4,6 +4,15 @@
     "version": "0.0.0.0",
     "description": "remove super chat from youtube live",
     "icons": {
-        "16": "assets/inhibit.png"
-    }
+        "16": "assets/inhibit.png",
+        "32": "assets/inhibit.png",
+        "64": "assets/inhibit.png"
+    },
+    "permissions": ["https://www.youtube.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["src/index.js"]
+        }
+    ]
 }
